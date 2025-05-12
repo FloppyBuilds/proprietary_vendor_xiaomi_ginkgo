@@ -6,6 +6,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/ginkgo
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/ginkgo/proprietary/recovery/root/vendor/firmware/focaltech_ts_fw_huaxing.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw_huaxing.bin \
+    vendor/xiaomi/ginkgo/proprietary/recovery/root/vendor/firmware/novatek_ts_ebbg_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_ebbg_fw.bin \
+    vendor/xiaomi/ginkgo/proprietary/recovery/root/vendor/firmware/novatek_ts_ebbg_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_ebbg_mp.bin \
+    vendor/xiaomi/ginkgo/proprietary/recovery/root/vendor/firmware/novatek_ts_tianma_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_tianma_fw.bin \
+    vendor/xiaomi/ginkgo/proprietary/recovery/root/vendor/firmware/novatek_ts_tianma_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_tianma_mp.bin \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/acdbdata/IDP/IDP_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP/IDP_Codec_cal.acdb \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/acdbdata/IDP/IDP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP/IDP_General_cal.acdb \
