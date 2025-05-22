@@ -1487,4 +1487,5 @@ PRODUCT_PACKAGES += \
     misound_karaoke_res \
     misound_karaokemix_res \
     misound_res \
+    cnss-daemon \
     sensors.qti
