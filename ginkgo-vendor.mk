@@ -1470,7 +1470,6 @@ PRODUCT_PACKAGES += \
     libvidhance \
     libxiaomiAI_sensor \
     miwatermark \
-    consumerir.trinket \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
     libgf_ca \
