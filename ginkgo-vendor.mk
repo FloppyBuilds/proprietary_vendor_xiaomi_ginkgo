@@ -1472,8 +1472,8 @@ PRODUCT_PACKAGES += \
     libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1 \
     sensors.ssc \
     vendor.qti.hardware.fingerprint@1.0 \
-    misound_karaoke_res \
-    misound_karaokemix_res \
-    misound_res \
+    vendor_lib_rfsa_adsp_misound_karaoke_res_bin \
+    vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
+    vendor_lib_rfsa_adsp_misound_res_bin \
     cnss-daemon \
     sensors.qti
